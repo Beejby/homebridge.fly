@@ -1,0 +1,21 @@
+{
+  "bridge": {
+    "name": "Homebridge na Fly.io",
+    "username": "AA:BB:CC:11:22:33",
+    "port": 51826,
+    "pin": "123-45-678"
+  },
+  "accessories": [],
+  "platforms": [
+    {
+      "platform": "config",
+      "name": "Config",
+      "port": 8080,
+      "log": {
+        "method": "file",
+        "path": "/homebridge/homebridge.log"
+      },
+      "host": "0.0.0.0"
+    }
+  ]
+}
